@@ -27,7 +27,7 @@ switch (entrada) {
         alert("O en 3 cuotas" + " " + "$" + parseInt((cargador * iva)/ cuotas))
         break;
     default:
-        alert("No conozco este producto");
+        alert(`No conozco este producto`);
         break;
 }
 
